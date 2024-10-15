@@ -1407,6 +1407,14 @@
     "format": "png"
   }]
 }, {
+  "name": "nero",
+  "icons": [{
+    "url": "ipfs://QmdkENLFjLRNts2kBspNbM3q84WjG5Yf7C8amVVr7FCQrp",
+    "width": 521,
+    "height": 521,
+    "format": "png"
+  }]
+}, {
   "name": "plume",
   "icons": [{
     "url": "ipfs://QmNUpqkYWYJoDXKUpZ8FVbGyN6HCwxYonKNAieCf2oTzGn",
@@ -1991,6 +1999,14 @@
     "format": "png"
   }]
 }, {
+  "name": "exsat",
+  "icons": [{
+    "url": "ipfs://QmYZ1FjYCByj89pNiZfae2a9uTm7pJMKrzdQ1V1UKwhwNs",
+    "width": 1024,
+    "height": 1024,
+    "format": "png"
+  }]
+}, {
   "name": "dchainmainnet",
   "icons": [{
     "url": "ipfs://QmamkxtxT1uFWQGxswmzBRkoTcZuU5biM1QvdsU6SD36K6",
@@ -2276,6 +2292,14 @@
     "url": "ipfs://QmV4f9byENNduHgLi8o1pC1sBNe3QAege2NnFkqGkTKojT",
     "width": 1000,
     "height": 1000,
+    "format": "png"
+  }]
+}, {
+  "name": "callistonetwork",
+  "icons": [{
+    "url": "ipfs://QmQbn4Jr6PLSsgFo1eALKQ7eMfndJJJ4B15a9yj5G5vMLC",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -2679,6 +2703,14 @@
     "format": "png"
   }]
 }, {
+  "name": "sorianTestnet",
+  "icons": [{
+    "url": "ipfs://QmZmrcLYFtPZb36MZ1DyQpR7Lw8CWPP7x3Bx2anCjVWfMR",
+    "width": 500,
+    "height": 500,
+    "format": "png"
+  }]
+}, {
   "name": "iChain",
   "icons": [{
     "url": "ipfs://QmcumhDxUyoLTHkcMKgPqkpGnnjwSTqE2KGFnDXXFY8mMo",
@@ -3031,6 +3063,14 @@
     "format": "png"
   }]
 }, {
+  "name": "stenix",
+  "icons": [{
+    "url": "ipfs://QmVM1zLyWDZYyje5qWWfDdve1fmrDm69J9pSKhivb1zkCH",
+    "width": 1200,
+    "height": 1200,
+    "format": "png"
+  }]
+}, {
   "name": "blx",
   "icons": [{
     "url": "ipfs://QmXM7XiLdSxhCub8MLSSo2J9V2qAkTcwdAGxcT57kurUzg",
@@ -3308,6 +3348,14 @@
     "url": "ipfs://QmSxXjvWng3Diz4YwXDV2VqSPgMyzLYBNfkjJcr7rzkxom",
     "width": 400,
     "height": 400,
+    "format": "png"
+  }]
+}, {
+  "name": "stenscan",
+  "icons": [{
+    "url": "ipfs://QmVM1zLyWDZYyje5qWWfDdve1fmrDm69J9pSKhivb1zkCH",
+    "width": 1200,
+    "height": 1200,
     "format": "png"
   }]
 }, {
@@ -4479,6 +4527,14 @@
     "format": "png"
   }]
 }, {
+  "name": "haust",
+  "icons": [{
+    "url": "ipfs://QmRAjG8kc6PJr3xFGYhq1pWiiDoERD3Wj8wR7Cu59HoFnm",
+    "width": 206,
+    "height": 206,
+    "format": "svg"
+  }]
+}, {
   "name": "edexa",
   "icons": [{
     "url": "ipfs://QmSgvmLpRsCiu2ySqyceA5xN4nwi7URJRNEZLffwEKXdoR",
@@ -4831,11 +4887,27 @@
     "format": "png"
   }]
 }, {
+  "name": "slerf",
+  "icons": [{
+    "url": "ipfs://QmdDeCjjYSG5FEAxzAuERXnS3AbeZvqSFVTn9x7UbrQeuT",
+    "width": 800,
+    "height": 800,
+    "format": "png"
+  }]
+}, {
   "name": "memo",
   "icons": [{
     "url": "ipfs://bafkreig52paynhccs4o5ew6f7mk3xoqu2bqtitmfvlgnwarh2pm33gbdrq",
     "width": 128,
     "height": 128,
+    "format": "png"
+  }]
+}, {
+  "name": "sorian",
+  "icons": [{
+    "url": "ipfs://QmZmrcLYFtPZb36MZ1DyQpR7Lw8CWPP7x3Bx2anCjVWfMR",
+    "width": 500,
+    "height": 500,
     "format": "png"
   }]
 }, {
@@ -5661,6 +5733,14 @@
     "width": 225,
     "height": 225,
     "format": "png"
+  }]
+}, {
+  "name": "treasuretopaz",
+  "icons": [{
+    "url": "ipfs://QmT9TS1vsxxq4pToEXPouuYtDcpQZWZfh91NZdNXVQGPrY",
+    "width": 24,
+    "height": 24,
+    "format": "svg"
   }]
 }, {
   "name": "aac",

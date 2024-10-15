@@ -2640,6 +2640,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "Unichain",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://unichain.org",
+  "shortName": "unichain",
+  "chainId": 130,
+  "networkId": 130,
+  "status": "incubating"
+}, {
   "name": "Engram Testnet",
   "chain": "tGRAM",
   "icon": "engram",
@@ -6166,6 +6181,32 @@
     }]
   }
 }, {
+  "name": "Stenix Mainnet",
+  "chain": "STEN",
+  "rpc": ["https://stenix.network/pub"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Stenix",
+    "symbol": "STEN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://stenix.org",
+  "shortName": "sten",
+  "chainId": 425,
+  "networkId": 425,
+  "icon": "stenix",
+  "explorers": [{
+    "name": "stenscan",
+    "url": "https://stenscan.com",
+    "icon": "stenscan",
+    "standard": "none"
+  }]
+}, {
   "name": "Zeeth Chain",
   "chain": "ZeethChain",
   "rpc": ["https://rpc.zeeth.io"],
@@ -6712,8 +6753,8 @@
 }, {
   "name": "Rollux Mainnet",
   "chain": "SYS",
-  "rpc": ["https://rpc.rollux.com", "wss://rpc.rollux.com/wss", "https://rpc.ankr.com/rollux", "https://rollux.rpc.syscoin.org", "wss://rollux.rpc.syscoin.org/wss"],
-  "faucets": ["https://rollux.id/faucetapp"],
+  "rpc": ["https://rpc.rollux.com", "wss://rpc.rollux.com/wss", "https://rpc.ankr.com/rollux"],
+  "faucets": ["https://rollux.id/faucet"],
   "nativeCurrency": {
     "name": "Syscoin",
     "symbol": "SYS",
@@ -6724,7 +6765,7 @@
   "chainId": 570,
   "networkId": 570,
   "explorers": [{
-    "name": "Rollux Explorer",
+    "name": "Rollux Mainnet Explorer",
     "url": "https://explorer.rollux.com",
     "standard": "EIP3091"
   }]
@@ -7297,6 +7338,27 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://blockscout.karura.network",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "NERO Testnet",
+  "chain": "NERO Chain",
+  "rpc": ["https://rpc-testnet.nerochain.io", "wss://ws-testnet.nerochain.io"],
+  "faucets": ["https://faucet-testnet.nerochain.io"],
+  "nativeCurrency": {
+    "name": "NERO",
+    "symbol": "NERO",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.nerochain.io/",
+  "shortName": "NERO",
+  "chainId": 689,
+  "networkId": 689,
+  "slip44": 1,
+  "icon": "nero",
+  "explorers": [{
+    "name": "nero testnet scan",
+    "url": "https://testnet.neroscan.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -8021,18 +8083,29 @@
 }, {
   "name": "Callisto Mainnet",
   "chain": "CLO",
-  "rpc": ["https://rpc.callisto.network/"],
-  "faucets": [],
+  "icon": "callistonetwork",
+  "rpc": ["https://rpc.callistodao.org"],
+  "faucets": ["https://faucet.callistodao.org"],
   "nativeCurrency": {
     "name": "Callisto",
     "symbol": "CLO",
     "decimals": 18
   },
-  "infoURL": "https://callisto.network",
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://callistodao.org",
   "shortName": "clo",
   "chainId": 820,
   "networkId": 1,
-  "slip44": 820
+  "slip44": 820,
+  "explorers": [{
+    "name": "blockscout-callisto-network",
+    "url": "https://explorer.callistodao.org",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Callisto Testnet Deprecated",
   "chain": "CLO",
@@ -8494,6 +8567,28 @@
   "explorers": [{
     "name": "FireScan",
     "url": "https://rinia.firescan.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "SlerfChain Mainnet",
+  "title": "SlerfChain Mainnet",
+  "chain": "SLERF CHAIN",
+  "rpc": ["https://rpc.slerfchain.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WSLERF",
+    "symbol": "WSLERF",
+    "decimals": 18
+  },
+  "infoURL": "https://slerfchain.xyz",
+  "shortName": "SlerfChain-Mainnet",
+  "chainId": 918,
+  "networkId": 918,
+  "icon": "slerf",
+  "explorers": [{
+    "name": "SlerfChain Scan",
+    "url": "https://scan.slerfchain.xyz",
+    "icon": "slerf",
     "standard": "EIP3091"
   }]
 }, {
@@ -10827,6 +10922,29 @@
     "name": "Bobabase block explorer",
     "url": "https://blockexplorer.bobabase.boba.network",
     "standard": "none"
+  }]
+}, {
+  "name": "Unichain Sepolia Testnet",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.unichain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://unichain.org",
+  "shortName": "unichain-sep",
+  "chainId": 1301,
+  "networkId": 1301,
+  "explorers": [{
+    "name": "Unichain Sepolia Testnet Explorer",
+    "url": "https://unichain-sepolia.blockscout.com",
+    "standard": "EIP3091"
+  }, {
+    "name": "Unichain Sepolia Testnet Explorer",
+    "url": "https://sepolia.uniscan.xyz",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Dos Fuji Subnet",
@@ -19694,6 +19812,33 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "exSat Network",
+  "chain": "exSat",
+  "icon": "exsat",
+  "rpc": ["https://evm.exsat.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://exsat.network/",
+  "shortName": "xsat",
+  "chainId": 7200,
+  "networkId": 7200,
+  "explorers": [{
+    "name": "exSat Explorer",
+    "url": "https://scan.exsat.network",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": ""
+    }]
+  }
+}, {
   "name": "Nibiru Testnet-1",
   "chain": "Nibiru",
   "rpc": ["https://evm-rpc.testnet-1.nibiru.fi"],
@@ -23414,6 +23559,10 @@
   "explorers": [{
     "name": "bevm mainnet scan",
     "url": "https://scan-mainnet.bevm.io",
+    "standard": "none"
+  }, {
+    "name": "bevm mainnet oklink",
+    "url": "https://www.oklink.com/bevm",
     "standard": "none"
   }]
 }, {
@@ -30426,8 +30575,8 @@
   "rpc": ["https://rpc-amoy.polygon.technology", "https://polygon-amoy-bor-rpc.publicnode.com", "wss://polygon-amoy-bor-rpc.publicnode.com"],
   "faucets": ["https://faucet.polygon.technology/"],
   "nativeCurrency": {
-    "name": "MATIC",
-    "symbol": "MATIC",
+    "name": "POL",
+    "symbol": "POL",
     "decimals": 18
   },
   "infoURL": "https://polygon.technology/",
@@ -32630,6 +32779,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "XCOIN",
+  "chain": "XCOIN",
+  "rpc": ["https://rpc-xcoin.cryptoxnetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XCOIN",
+    "symbol": "XCOIN",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://cryptoxnetwork.io",
+  "shortName": "xcoin",
+  "chainId": 158345,
+  "networkId": 158345,
+  "explorers": [{
+    "name": "CryptoX explorer",
+    "url": "https://cryptoxscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "PlayFi Mainnet",
   "chain": "PLAY",
   "rpc": [],
@@ -32949,6 +33122,25 @@
   "shortName": "fhet",
   "chainId": 192940,
   "networkId": 192940
+}, {
+  "name": "R0AR Chain",
+  "chain": "R0AR Chain",
+  "rpc": ["https://rpc-r0ar.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://r0arscan.io",
+  "shortName": "R0AR-Chain",
+  "chainId": 193939,
+  "networkId": 193939,
+  "explorers": [{
+    "name": "tracehawk",
+    "url": "https://r0arscan.io",
+    "standard": "none"
+  }]
 }, {
   "name": "MAZZE Testnet",
   "chain": "MAZZE Testnet",
@@ -33270,6 +33462,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Blockfit",
+  "chain": "202424",
+  "rpc": ["https://rpc.blockfitscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BFIT",
+    "symbol": "BFIT",
+    "decimals": 18
+  },
+  "infoURL": "https://blockfit.io",
+  "shortName": "Blockfit",
+  "chainId": 202424,
+  "networkId": 202424,
+  "explorers": [{
+    "name": "Tracehawk",
+    "url": "https://blockfitscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Jellie",
   "title": "Twala Testnet Jellie",
   "shortName": "twl-jellie",
@@ -33347,6 +33558,48 @@
   "shortName": "atlas",
   "chainId": 210049,
   "networkId": 210049
+}, {
+  "name": "Sorian",
+  "chain": "SOR",
+  "rpc": ["https://rpc.sorian.io"],
+  "faucets": [],
+  "icon": "sorian",
+  "nativeCurrency": {
+    "name": "Sorian",
+    "symbol": "SOR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://sorian.io",
+  "shortName": "sorian",
+  "chainId": 210209,
+  "networkId": 210209,
+  "explorers": []
+}, {
+  "name": "Sorian Testnet",
+  "chain": "tSOR",
+  "rpc": ["https://testnet-rpc.sorian.io", "https://testnet.rpc.sorian.io"],
+  "faucets": [],
+  "icon": "sorianTestnet",
+  "nativeCurrency": {
+    "name": "Sorian Testnet",
+    "symbol": "tSOR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://mint.sorian.io",
+  "shortName": "sorianTestnet",
+  "chainId": 210210,
+  "networkId": 210210,
+  "explorers": []
 }, {
   "name": "PlatON Mainnet",
   "chain": "PlatON",
@@ -35289,7 +35542,7 @@
 }, {
   "name": "Polter Testnet",
   "chain": "Geist",
-  "rpc": [],
+  "rpc": ["https://geist-polter.g.alchemy.com/public"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Polter GHST",
@@ -35303,7 +35556,11 @@
   "networkId": 631571,
   "status": "incubating",
   "icon": "polterGeist",
-  "explorers": []
+  "explorers": [{
+    "name": "Polter Testnet Explorer",
+    "url": "https://polter-testnet.explorer.alchemy.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Bear Network Chain Mainnet",
   "chain": "BRNKC",
@@ -36273,6 +36530,42 @@
     "chain": "eip155-1",
     "bridges": [{
       "url": "https://portal.treasure.lol/bridge"
+    }]
+  }
+}, {
+  "name": "Treasure Topaz",
+  "chain": "Treasure Topaz",
+  "shortName": "Topaz",
+  "chainId": 978658,
+  "networkId": 978658,
+  "nativeCurrency": {
+    "name": "Testnet MAGIC",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "slip44": 1,
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://app.treasure.lol",
+  "icon": "treasuretopaz",
+  "rpc": ["https://rpc.topaz.treasure.lol", "wss://rpc.topaz.treasure.lol/ws"],
+  "faucets": ["https://app.treasure.lol/chain/faucet", "https://thirdweb.com/treasure-topaz"],
+  "explorers": [{
+    "name": "treasurescan",
+    "url": "https://topaz.treasurescan.io",
+    "icon": "treasure",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://app.treasure.lol/chain/bridge"
+    }, {
+      "url": "https://portal.topaz.treasure.lol/bridge"
     }]
   }
 }, {
@@ -37785,6 +38078,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "R0AR Testnet",
+  "chain": "R0AR Testnet",
+  "rpc": ["https://testnet.rpc-r0ar.io"],
+  "faucets": ["https://testnet.r0arfaucet.io"],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://testnet.r0arscan.io",
+  "shortName": "R0AR-Test-Chain",
+  "chainId": 11166111,
+  "networkId": 11166111,
+  "explorers": [{
+    "name": "tracehawk",
+    "url": "https://testnet.r0arscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Memento Testnet",
   "chain": "Memento",
   "rpc": ["https://test-rpc.mementoblockchain.com/IRkghvI3FfEArEJMr4zC/rpc"],
@@ -38472,6 +38784,38 @@
     "standard": "none"
   }]
 }, {
+  "name": "Deviant Token Blockchain",
+  "chain": "DTBC",
+  "status": "incubating",
+  "rpc": ["https://rpc.devianttoken.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Deviant Token",
+    "symbol": "DTBC",
+    "decimals": 18
+  },
+  "infoURL": "https://devianttoken.net",
+  "shortName": "dtbc",
+  "chainId": 52027071,
+  "networkId": 52027071,
+  "explorers": []
+}, {
+  "name": "Deviant Token Blockchain Testnet",
+  "chain": "tDTBC",
+  "status": "incubating",
+  "rpc": ["https://trpc.devianttoken.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Deviant Token Testnet",
+    "symbol": "tDTBC",
+    "decimals": 18
+  },
+  "infoURL": "https://devianttoken.net",
+  "shortName": "tdtbc",
+  "chainId": 52027080,
+  "networkId": 52027080,
+  "explorers": []
+}, {
   "name": "Fluence Testnet",
   "chain": "Fluence Testnet",
   "rpc": ["https://rpc.testnet.fluence.dev/", "wss://ws.testnet.fluence.dev/"],
@@ -38840,6 +39184,22 @@
     }]
   },
   "status": "active"
+}, {
+  "name": "ChadChain",
+  "chain": "CHAD",
+  "status": "incubating",
+  "rpc": ["https://rpc.chadchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ChadChain",
+    "symbol": "CHAD",
+    "decimals": 18
+  },
+  "infoURL": "https://chadchain.org",
+  "shortName": "chad",
+  "chainId": 97912060,
+  "networkId": 97912060,
+  "explorers": []
 }, {
   "name": "Joys Digital TestNet",
   "chain": "TOYS",
@@ -39925,9 +40285,38 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Haust Testnet",
+  "title": "Haust Testnet",
+  "chain": "Haust-testnet",
+  "rpc": ["https://rpc-test.haust.network"],
+  "faucets": ["https://haust-testnet-faucet.eu-north-2.gateway.fm"],
+  "nativeCurrency": {
+    "name": "HAUST",
+    "symbol": "HAUST",
+    "decimals": 18
+  },
+  "infoURL": "https://haust.network/",
+  "shortName": "hst-test",
+  "chainId": 1570754601,
+  "networkId": 1570754601,
+  "icon": "haust",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://haust-testnet-blockscout.eu-north-2.gateway.fm",
+    "icon": "haust",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://haust-testnet-bridge.eu-north-2.gateway.fm"
+    }]
+  }
+}, {
   "name": "Harmony Mainnet Shard 0",
   "chain": "Harmony",
-  "rpc": ["https://api.harmony.one", "https://a.api.s0.t.hmny.io", "https://api.s0.t.hmny.io", "https://rpc.ankr.com/harmony", "https://harmony.api.onfinality.io/public", "https://1rpc.io/one", "https://harmony-0.drpc.org", "wss://harmony-0.drpc.org"],
+  "rpc": ["https://api.harmony.one", "https://a.api.s0.t.hmny.io", "https://api.s0.t.hmny.io", "https://rpc.ankr.com/harmony", "https://1rpc.io/one", "https://harmony-0.drpc.org", "wss://harmony-0.drpc.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ONE",
@@ -40107,10 +40496,10 @@
   },
   "status": "active"
 }, {
-  "name": "Kakarot Sepolia",
+  "name": "Kakarot Sepolia (Deprecated)",
   "chain": "ETH",
   "icon": "kakarot",
-  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -40648,6 +41037,35 @@
     "url": "https://v1.aggron.gwscan.com",
     "standard": "none"
   }]
+}, {
+  "name": "Kakarot Starknet Sepolia",
+  "chain": "ETH",
+  "icon": "kakarot",
+  "rpc": ["https://sepolia-rpc.kakarot.org"],
+  "faucets": ["https://sepolia-faucet.kakarot.org/"],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kakarot.org",
+  "shortName": "kkrt-starknet-sepolia",
+  "chainId": 920637907288165,
+  "networkId": 920637907288165,
+  "explorers": [{
+    "name": "Kakarot Scan",
+    "url": "https://sepolia.kakarotscan.org",
+    "standard": "EIP3091"
+  }, {
+    "name": "Kakarot Explorer",
+    "url": "https://sepolia-explorer.kakarot.org",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": []
+  }
 }, {
   "name": "DCHAIN Testnet",
   "title": "DCHAIN Testnet",
